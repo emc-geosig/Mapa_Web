@@ -4,9 +4,17 @@ function categories_UnidadesVegetacionChubut_0(feature, value, size, resolution,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case 'Bosque caducifolio de Nothofagus spp. y Selva pluvial templada':
+                switch(valueStr) {default:
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,245,235,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(127,39,4,1.0)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'Bosque caducifolio de Nothofagus spp. y Selva pluvial templada':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(7,149,38,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -14,7 +22,7 @@ function categories_UnidadesVegetacionChubut_0(feature, value, size, resolution,
                     break;
 case 'Estepa arbustiva alta y graminoso arbustiva':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(254,233,213,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(141,216,50,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -22,7 +30,7 @@ case 'Estepa arbustiva alta y graminoso arbustiva':
                     break;
 case 'Estepa arbustiva baja':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(253,218,182,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(164,237,4,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -30,7 +38,7 @@ case 'Estepa arbustiva baja':
                     break;
 case 'Estepa arbustiva con Chuquiraga avellanedae':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(253,198,145,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(162,176,4,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -38,7 +46,7 @@ case 'Estepa arbustiva con Chuquiraga avellanedae':
                     break;
 case 'Estepa arbustiva ecotonal con Chuquiraga avellanedae':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(253,171,103,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(235,152,5,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -46,7 +54,7 @@ case 'Estepa arbustiva ecotonal con Chuquiraga avellanedae':
                     break;
 case 'Estepa arbustiva serrana con Colliguaja integerrima':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(253,146,67,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(219,193,43,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -54,7 +62,7 @@ case 'Estepa arbustiva serrana con Colliguaja integerrima':
                     break;
 case 'Estepa arbustivo graminosa':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(246,119,35,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,245,127,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -62,7 +70,7 @@ case 'Estepa arbustivo graminosa':
                     break;
 case 'Estepa baja de Senecio algens y Oxalis compacta':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(232,92,12,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(250,164,19,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -70,7 +78,7 @@ case 'Estepa baja de Senecio algens y Oxalis compacta':
                     break;
 case 'Estepa de Zigofilaceas de baja cobertura':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(209,69,1,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(157,52,1,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -78,15 +86,7 @@ case 'Estepa de Zigofilaceas de baja cobertura':
                     break;
 case 'Estepa graminosa de Festuca pallescens':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(166,54,3,1.0)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-default:
-                    return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(127,39,4,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(128,62,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(182,127,73,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

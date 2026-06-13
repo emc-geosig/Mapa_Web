@@ -14,17 +14,17 @@ var lyr_UnidadesVegetacionChubut_0 = new ol.layer.Vector({
                 popuplayertitle: 'UnidadesVegetacionChubut',
                 interactive: true,
     title: 'UnidadesVegetacionChubut<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_0.png" /> Bosque caducifolio de Nothofagus spp. y Selva pluvial templada<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_1.png" /> Estepa arbustiva alta y graminoso arbustiva<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_2.png" /> Estepa arbustiva baja<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_3.png" /> Estepa arbustiva con Chuquiraga avellanedae<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_4.png" /> Estepa arbustiva ecotonal con Chuquiraga avellanedae<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_5.png" /> Estepa arbustiva serrana con Colliguaja integerrima<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_6.png" /> Estepa arbustivo graminosa<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_7.png" /> Estepa baja de Senecio algens y Oxalis compacta<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_8.png" /> Estepa de Zigofilaceas de baja cobertura<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_9.png" /> Estepa graminosa de Festuca pallescens<br />\
-    <img src="styles/legend/UnidadesVegetacionChubut_0_10.png" /> <br />' });
+    <img src="styles/legend/UnidadesVegetacionChubut_0_0.png" /> <br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_1.png" /> Bosque caducifolio de Nothofagus spp. y Selva pluvial templada<br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_2.png" /> Estepa arbustiva alta y graminoso arbustiva<br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_3.png" /> Estepa arbustiva baja<br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_4.png" /> Estepa arbustiva con Chuquiraga avellanedae<br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_5.png" /> Estepa arbustiva ecotonal con Chuquiraga avellanedae<br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_6.png" /> Estepa arbustiva serrana con Colliguaja integerrima<br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_7.png" /> Estepa arbustivo graminosa<br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_8.png" /> Estepa baja de Senecio algens y Oxalis compacta<br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_9.png" /> Estepa de Zigofilaceas de baja cobertura<br />\
+    <img src="styles/legend/UnidadesVegetacionChubut_0_10.png" /> Estepa graminosa de Festuca pallescens<br />' });
 var format_RiosDelChubut_1 = new ol.format.GeoJSON();
 var features_RiosDelChubut_1 = format_RiosDelChubut_1.readFeatures(json_RiosDelChubut_1, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
